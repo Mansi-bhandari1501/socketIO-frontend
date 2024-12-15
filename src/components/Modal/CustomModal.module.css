@@ -1,0 +1,70 @@
+.root {
+    position: absolute !important;
+    width: 744px !important;
+    /* min-height: 40vh !important;
+    max-height: 80vh !important; */
+    background-color: #fff !important;
+    top: 50px !important;
+    left: 50% !important;
+    transform: translate(-50%, 0%);
+    z-index: 10000 !important;
+    box-shadow: 24px;
+    border-radius: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    overflow: auto !important;
+}
+
+.Head {
+    box-sizing: border-box !important;
+    position: relative !important;
+    height: 60px !important;
+    width: 100% !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.25) !important; */
+    /* box-shadow: 0 2px 0 rgba(9,30,66,.25) !important; */
+    /* padding: 16px 48px 16px 24px !important; */
+}
+.title{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 28px !important;
+    color: #000000e6 !important;
+
+}
+.closeBtn{
+    height: 48px !important;
+    width: 48px !important;
+    position: absolute !important;
+    right:8px !important;
+    top: 6px !important;
+    padding: 0 !important;
+    
+}
+.footer{
+    box-sizing: border-box !important;
+    position: relative !important;
+    height: 57px !important;
+    width: 100% !important;
+    /* border-top: 0.5px solid rgba(0, 0, 0, 0.25) !important; */
+    padding: 12px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.btnWraper{
+    height: 100% !important;
+    width: auto !important;
+}
+.deleteBtn{
+    height: 100% !important;
+}
+.saveBtn{
+    height: 100% !important;
+    background-color: #0a66c2 !important;
+    color: white !important;
+    border-radius: 25px !important;
+    padding: 6px 16px !important;
+    margin-right: 10px  !important;
+}
